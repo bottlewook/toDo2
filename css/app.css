@@ -1,0 +1,51 @@
+h1 {
+  color: #92B4EC
+}
+body {
+  height: 200px;
+  width: 200px;
+}
+/* form {
+  display: flex;
+  fl
+} */
+form > button {
+  color: #92B4EC;
+  border-radius: 5px;
+  background-color: white;
+  border: 1px solid #92B4EC;
+  padding: 3px 5px;
+}
+input {
+  margin: 0 0 10px 0;
+}
+li {
+  list-style-type: none;
+  margin: 0 0 10px 0;
+}
+
+ul {
+  padding: 0;
+}
+
+ul > li span {
+  padding: 0 10px 0 0;
+}
+
+ul > li > button {
+  border: 1px solid #92B4EC;
+  display: inline-block;
+  padding: 3px 6px;
+  border-radius: 3px;
+  font-family: "paybooc-Light", sans-serif;
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.2);
+  text-decoration: none;
+  font-weight: 600;
+  transition: 0.25s;
+  background-color: aliceblue;
+  color: #1e6b7b;
+}
+
+.hidden {
+  display: none;
+}
